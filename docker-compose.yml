@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ubuntu-python:
+    image: ubuntu
+    command: tail -F anything
+    volumes:
+      - /Users/alvaro.caceres/Desktop/ubuntu-python/shr:/shr
